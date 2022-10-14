@@ -1,0 +1,15 @@
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/bin/Debug/net6.0/BackEndProj
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/bin/Debug/net6.0/BackEndProj.deps.json
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/bin/Debug/net6.0/BackEndProj.runtimeconfig.json
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/bin/Debug/net6.0/BackEndProj.dll
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/bin/Debug/net6.0/BackEndProj.pdb
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.csproj.AssemblyReference.cache
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.AssemblyInfoInputs.cache
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.AssemblyInfo.cs
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.csproj.CoreCompileInputs.cache
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.dll
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/refint/BackEndProj.dll
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.pdb
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/BackEndProj.genruntimeconfig.cache
+/Users/marcosrobertodeoliveira/BackEnd/BackEndProj/obj/Debug/net6.0/ref/BackEndProj.dll
