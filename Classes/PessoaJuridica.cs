@@ -6,7 +6,7 @@ using BackEndProj.Interfaces;
 
 namespace BackEndProj.Classes
 {
-    public class PessoaJuridica : IPessoaJuridica
+    public class PessoaJuridica : Pessoa, IPessoaJuridica
     {
         public string razaoSocial { get; set; }
         public string cnpj { get; set; }
