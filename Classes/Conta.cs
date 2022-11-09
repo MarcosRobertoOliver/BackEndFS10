@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BackEndProj.Classes
 {
-    public class Conta
+    public abstract class Conta
     {
         public string agencia { get; private set; }
         public string conta { get; set; }
@@ -13,16 +13,16 @@ namespace BackEndProj.Classes
         private double saldo; 
 
         //construtor padrão
-        public Conta(){
+        // public Conta(){
 
-        }
-        //Construtor sobrecarga 1
-        public Conta(string parAgencia, string parConta){
-            this.agencia = parAgencia;
-            this.conta = parConta;
-        }    
+        // }
+        // //Construtor sobrecarga 1
+        // public Conta(string parAgencia, string parConta){
+        //     this.agencia = parAgencia;
+        //     this.conta = parConta;
+        // }    
 
-            //Construtor sobrecarga 2
+        //     //Construtor sobrecarga 2
         public Conta(string parAgencia, string parConta, double parSaldo){
             this.agencia = parAgencia;
             this.conta = parConta;

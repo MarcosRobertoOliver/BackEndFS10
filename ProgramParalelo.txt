@@ -1,20 +1,29 @@
 ﻿using BackEndProj.Classes;
 
-//CONTA CORRENTE
-Conta conta1 = new Conta("1234", "328328-3", 1500);
+// //CONTA CORRENTE
+// Conta conta1 = new Conta("1234", "328328-3", 1500);
 
-Conta conta2 = new Conta();
-    conta2.preencherAgencia("1768");
-    conta2.conta = "17681768-5";
-    conta2.setSaldo(5001);
+// Conta conta2 = new Conta();
+//     conta2.preencherAgencia("1768");
+//     conta2.conta = "17681768-5";
+//     conta2.setSaldo(5001);
 
-Console.WriteLine("Conta1");
-Console.WriteLine($"Agência: {conta1.agencia}");
-Console.WriteLine($"Conta: {conta1.conta}");
-Console.WriteLine($"Saldo: {conta1.getSaldo()}");
+// Console.WriteLine("Conta1");
+// Console.WriteLine($"Agência: {conta1.agencia}");
+// Console.WriteLine($"Conta: {conta1.conta}");
+// Console.WriteLine($"Saldo: {conta1.getSaldo()}");
 
-Console.WriteLine();
-Console.WriteLine("Conta2");
-Console.WriteLine($"Agência: {conta2.agencia}");
-Console.WriteLine($"Conta: {conta2.conta}");
-Console.WriteLine($"Saldo: {conta2.getSaldo()}");
+// Console.WriteLine();
+// Console.WriteLine("Conta2");
+// Console.WriteLine($"Agência: {conta2.agencia}");
+// Console.WriteLine($"Conta: {conta2.conta}");
+// Console.WriteLine($"Saldo: {conta2.getSaldo()}");
+ContaCorrente cc = new ContaCorrente("1234", "328328-3", 1500, "Marcos");         
+// ContaPoupanca pp = new ContaPoupanca();
+
+Console.WriteLine(@$"
+    Correntista: {cc.correntista}
+    Agência: {cc.agencia}
+    Conta: {cc.conta}
+    Saldo Atual: {cc.getSaldo()}
+");
