@@ -8,16 +8,14 @@ using BackEndProj.Interfaces; //import
 
 namespace BackEndProj.Classes
 {
-    public class Pessoa : IPessoa
+    public abstract class Pessoa : IPessoa //colocando como abstract não pode mais Estanciar (new)
     {
        public string nome { get; set; }
        public Endereco endereco { get; set; }
        public float rendimento { get; set; }
 
-        public float PagarImposto(float parRendimento)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract float PagarImposto(float parRendimento);
+        
         //metodo
     }
 }
