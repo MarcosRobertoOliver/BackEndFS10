@@ -12,7 +12,9 @@ namespace BackEndProj.Classes
 
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.Write($"texto");
+            Console.WriteLine();
+            Console.WriteLine(texto);
+            Console.Write($"Tecle Enter para continuar....");
 
             for (int contador = 0; contador < 6; contador++)
             {
